@@ -12,6 +12,7 @@
     ],
 	"publisher": "jwu910",
     "extensionPack": [
+		"aaron-bond.better-comments",
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
 		"octref.vetur",
