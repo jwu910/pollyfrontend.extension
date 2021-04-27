@@ -12,6 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Add Better Comments extension
 - Update readme
+- Add settings.json snippet
 
 ## v0.0.1 - Initial Release
 

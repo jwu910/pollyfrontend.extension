@@ -1,22 +1,22 @@
 {
-    "name": "pollyfrontend",
-    "displayName": "PollyFrontend",
-    "description": "Extension pack for frontend development at Polly",
-    "version": "0.0.1",
-	"repository": "https://github.com/jwu910/pollyfrontend.extension",
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-	"publisher": "jwu910",
-    "extensionPack": [
-		"aaron-bond.better-comments",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"octref.vetur",
-		"sdras.vue-vscode-snippets",
-		"editorconfig.editorconfig"
-    ]
+  "name": "pollyfrontend",
+  "displayName": "PollyFrontend",
+  "description": "Extension pack for frontend development at Polly",
+  "version": "0.0.1",
+  "repository": "https://github.com/jwu910/pollyfrontend.extension",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "publisher": "jwu910",
+  "extensionPack": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "sdras.vue-vscode-snippets",
+    "editorconfig.editorconfig"
+  ]
 }

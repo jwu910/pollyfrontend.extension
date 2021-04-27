@@ -20,16 +20,19 @@ This extension pack contains a set of extensions valuable to the frontend develo
 
 ### settings.json
 
-Additional settings to help get ESLint and editor formatting enabled
+Additional settings to help get ESLint and editor formatting enabled. Add following snippet to your settings.json in vscode
 
 ```json
 {
+  "eslint.workingDirectories": ["./frontend"],
+  "eslint.debug": true,
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
-  "eslint.debug": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[vue]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
 ```
