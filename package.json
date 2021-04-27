@@ -1,0 +1,20 @@
+{
+    "name": "pollyfrontend",
+    "displayName": "PollyFrontend",
+    "description": "Extension pack for frontend development at Polly",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+	"publisher": "jwu910",
+    "extensionPack": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"octref.vetur",
+		"sdras.vue-vscode-snippets",
+		"editorconfig.editorconfig"
+    ]
+}
