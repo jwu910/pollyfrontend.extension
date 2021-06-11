@@ -12,7 +12,6 @@ This extension pack contains a set of extensions valuable to the frontend develo
 - [Better Comments](https://www.digitalocean.com/community/tutorials/how-to-create-an-extension-pack-for-visual-studio-code) Improve your code commenting by annotating with alert, informational, TODOs, and more!
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) EditorConfig Support for Visual Studio Code
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) Integrates ESLint JavaScript into VS Code.
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Code formatter using prettier
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) Vue tooling for VS Code
 - [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) Snippets that will supercharge your Vue workflow
 
@@ -32,7 +31,7 @@ Additional settings to help get ESLint and editor formatting enabled. Add follow
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }
 ```
